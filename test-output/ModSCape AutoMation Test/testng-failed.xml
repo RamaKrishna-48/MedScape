@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ModSCape AutoMation Test]">
+  <test thread-count="5" name="MedScapeTest Test Cases(failed)">
+    <classes>
+      <class name="com.crm.qa.TestCases.HomePageTest">
+        <methods>
+          <include name="SetUp"/>
+          <include name="TesrDown"/>
+          <include name="novalCoranaPage"/>
+          <include name="residencypage"/>
+          <include name="VerifyHomePageTitleTest"/>
+        </methods>
+      </class> <!-- com.crm.qa.TestCases.HomePageTest -->
+    </classes>
+  </test> <!-- MedScapeTest Test Cases(failed) -->
+</suite> <!-- Failed suite [ModSCape AutoMation Test] -->

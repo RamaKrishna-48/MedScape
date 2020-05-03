@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [MedScape Automation Test]">
+  <listeners>
+    <listener class-name="com.crm.qa.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="MedScape(failed)">
+    <classes>
+      <class name="com.crm.qa.TestCases.ViewAllPagesTest">
+        <methods>
+          <include name="SetUp"/>
+          <include name="TesrDown"/>
+          <include name="TitleValidation"/>
+          <include name="validateviewAllPages"/>
+        </methods>
+      </class> <!-- com.crm.qa.TestCases.ViewAllPagesTest -->
+      <class name="com.crm.qa.TestCases.LoginPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="loginPageTitleTest"/>
+          <include name="loginTest"/>
+          <include name="medscapelogoTest"/>
+        </methods>
+      </class> <!-- com.crm.qa.TestCases.LoginPageTest -->
+      <class name="com.crm.qa.TestCases.NovalCoronaVirusTest">
+        <methods>
+          <include name="ViewImage"/>
+          <include name="SetUp"/>
+          <include name="ViewAllPages"/>
+          <include name="TesrDown"/>
+        </methods>
+      </class> <!-- com.crm.qa.TestCases.NovalCoronaVirusTest -->
+      <class name="com.crm.qa.TestCases.HomePageTest">
+        <methods>
+          <include name="SetUp"/>
+          <include name="TesrDown"/>
+          <include name="VerifyHomePageTitleTest"/>
+        </methods>
+      </class> <!-- com.crm.qa.TestCases.HomePageTest -->
+    </classes>
+  </test> <!-- MedScape(failed) -->
+</suite> <!-- Failed suite [MedScape Automation Test] -->
